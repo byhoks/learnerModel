@@ -1,5 +1,5 @@
 //
-//  LearnerModel.swift
+//  BicycleModel.swift
 //  LearnerModel
 //
 //  Created by Bobby Yusuf Hoksono on 15/5/19.
@@ -8,14 +8,14 @@
 
 import Foundation
 
-class LearnerModel {
+class BicycleModel {
+    
     var name: String
-    var age: Int
-    var gender: String
+    var engineVolume: Int
     var imageProfile : String
     
-    init(nameLearner: String, ageLearner: Int, genderLearner:String, imageProfileLearner: String) {
-        self.name = nameLearner
+    init(nameofBicycle: String, engineVolumeType: Int, imageProfileLearner: String) {
+        self.name = nameofBicycle
         self.age = ageLearner
         self.gender = genderLearner
         self.imageProfile = imageProfileLearner
@@ -23,11 +23,5 @@ class LearnerModel {
     
     func increaseAge(){
         self.age += 1
-    }
-    
-    
-    class Vechiles {
-        
-    }
     
 }

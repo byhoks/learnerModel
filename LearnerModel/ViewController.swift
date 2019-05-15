@@ -32,7 +32,6 @@ class ViewController: UIViewController {
         learnerNameLabel.text = instance.name
         learnerAgeLabel.text = "\(instance.age)"
         learnerGenderLabel.text = instance.gender
-        
         }
     }
     
@@ -42,6 +41,8 @@ class ViewController: UIViewController {
             updateUI()
         }
     }
+    
+    
     
     
 

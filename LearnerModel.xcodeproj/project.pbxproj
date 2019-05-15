@@ -13,6 +13,7 @@
 		9DE9D6FB228BE8A30082B9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9D6FA228BE8A30082B9B5 /* Assets.xcassets */; };
 		9DE9D6FE228BE8A30082B9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9D6FC228BE8A30082B9B5 /* LaunchScreen.storyboard */; };
 		9DE9D706228BE8DC0082B9B5 /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9D705228BE8DC0082B9B5 /* LearnerModel.swift */; };
+		9DE9D708228BF8830082B9B5 /* BicycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9D707228BF8830082B9B5 /* BicycleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9DE9D6FD228BE8A30082B9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DE9D6FF228BE8A30082B9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DE9D705228BE8DC0082B9B5 /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
+		9DE9D707228BF8830082B9B5 /* BicycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicycleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				9DE9D6F3228BE89F0082B9B5 /* AppDelegate.swift */,
 				9DE9D705228BE8DC0082B9B5 /* LearnerModel.swift */,
+				9DE9D707228BF8830082B9B5 /* BicycleModel.swift */,
 				9DE9D6F5228BE89F0082B9B5 /* ViewController.swift */,
 				9DE9D6F7228BE89F0082B9B5 /* Main.storyboard */,
 				9DE9D6FA228BE8A30082B9B5 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DE9D6F6228BE89F0082B9B5 /* ViewController.swift in Sources */,
+				9DE9D708228BF8830082B9B5 /* BicycleModel.swift in Sources */,
 				9DE9D706228BE8DC0082B9B5 /* LearnerModel.swift in Sources */,
 				9DE9D6F4228BE89F0082B9B5 /* AppDelegate.swift in Sources */,
 			);
