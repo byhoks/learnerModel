@@ -24,10 +24,4 @@ class LearnerModel {
     func increaseAge(){
         self.age += 1
     }
-    
-    
-    class Vechiles {
-        
-    }
-    
 }

@@ -8,20 +8,20 @@
 
 import Foundation
 
-class BicycleModel {
-    
-    var name: String
-    var engineVolume: Int
-    var imageProfile : String
-    
-    init(nameofBicycle: String, engineVolumeType: Int, imageProfileLearner: String) {
-        self.name = nameofBicycle
-        self.age = ageLearner
-        self.gender = genderLearner
-        self.imageProfile = imageProfileLearner
-    }
-    
-    func increaseAge(){
-        self.age += 1
-    
-}
+//class BicycleModel {
+//    
+//    var name: String
+//    var engineVolume: Int
+//    var imageProfile : String
+//    
+//  //  init(nameofBicycle: String, engineVolumeType: Int, imageProfileLearner: String) {
+//        self.name = nameofBicycle
+//        self.age = ageLearner
+//        self.gender = genderLearner
+//        self.imageProfile = imageProfileLearner
+//    }
+//    
+//    func increaseAge(){
+//        self.age += 1
+//    
+//}
